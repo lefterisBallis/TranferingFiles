@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/TranferingFiles">
+    <Resource name="jdbc/pool"
+              auth="Container"
+              type="javax.sql.DataSource"
+              validationQuery="SELECT 1"
+              maxActive="100"
+              minIdle="5"
+              maxWait="10000"
+              initialSize="10"
+              username="root"
+              password="wagon6080"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/pool?zeroDateTimeBehavior=CONVERT_TO_NULL&amp;useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true&amp;useSSL=false"/>
+</Context>

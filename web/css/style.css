@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    color: rgba(252, 255, 236, 0.87);
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(img/taylor-vick-M5tzZtFCOfs-unsplash.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 0% 37% 2% 37%;
+    padding-top: 2%;
+    color: #e1e1e1;
+    font-size: 255%;
+    word-spacing: 14px;
+    letter-spacing: 5px;
+}
+
+header {
+    border-bottom: 2px solid #e1e1e170;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+.file-transfer {
+    margin: 4% 42%;
+    color: #e1e1e1;
+    font-size: 170%;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #161a22a4;
+    border: 1px solid #38445c9d;
+    margin: 10% 12%;
+    color: #e1e1e1bb;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 150ms;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+    padding: 10px;
+    width: 180px;
+}
+
+input[type="submit"]:hover {
+    background-color: #161a22c9;
+}
+
+#file-list {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #161a22a4;
+    border: 1px solid #38445c9d;
+    margin: 5% 12%;
+    color: #e1e1e1bb;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 150ms;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+    padding: 10px;
+    width: 180px;
+}
+
+#file-list:hover {
+    background-color: #161a22c9;
+}
+
+.link {
+    margin-top: 10%;
+}
+
+.file-table {
+    margin: 5% 20%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 2%;
+    border: 2px solid;
+    background-color: #000000ab;
+    font-size: 140%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+tbody tr:hover {
+    background: #000000b7;
+}
+
+.icon {
+    margin-left: 45%;
+    font-size: 120%;
+    color:#e1e1e1bb;
+    cursor: pointer;
+}
+.icon:hover{
+    color: #e1e1e170;
+}
